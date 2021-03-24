@@ -1,0 +1,317 @@
+/*  ----------------FULL PAGE----------------  */
+.page{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 60px;
+    background-color: #F8F8F8;
+}
+
+.backgroundimage {
+    min-height: 721px;
+    max-width: 100%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*  ----------------HEADINGS AND FONTS----------------  */
+
+h1{
+    color: #FFFFFF;
+    font-family:  'Nunito', sans-serif;
+    font-size: 59px;
+    font-weight: 700; 
+}
+
+h2{
+    color: white;
+    font-family:'Fredericka the Great', cursive;
+    font-weight: 400px;
+    font-size: 48px;
+
+    
+}
+h3{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700px;
+    font-size: 24px;
+    
+}
+h4{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.roundbutton a {
+    color: #F8F8F8;
+
+}
+/*  ----------------BUTTONS----------------  */
+.roundbutton{
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg, #F2A2B8 -93.33%, #5005F2 114.44%);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid #F8F8F8;
+}
+
+/*  ----------------NAVIGATION----------------  */
+
+.navbar {
+    max-width: 1440px;
+    background: linear-gradient(180deg, #1C063B 55.73%, rgba(28, 6, 59, 0.03) 100%);
+
+}
+#navbarNav {
+   padding: 0;
+   padding-right: 100px;
+   padding-left: 450px;
+}
+  
+
+.navbutton{
+    background-color: #1c063b00;
+    height: 73px;
+    width: 190px;
+    display: inline-block;
+    border: none;
+}
+
+.navbutton:hover{
+    border: 3px solid #F2A2B8;
+}
+
+nav a {
+    text-decoration: none; 
+    color: #F8F8F8;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav a:hover {
+    color: #F8F8F8;
+}
+
+nav a:active{
+    background-color:#F2A2B8;
+    color: #1C063B;
+}
+
+/*  ----------------HERO----------------  */
+
+.hero{
+    padding-top: 100px;
+    max-height: 366px;
+    max-width: 715px;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.heroimage {
+    padding-left: 10px;
+    padding-right: 100px; 
+    align-content: center;
+    float: right;
+}
+
+/*  ----------------ABOUT ME----------------  */
+
+.aboutmelayout {
+    background-color: #1C063B;
+    max-width: 1440px;
+    min-height: 706px;
+}
+.row{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card{ 
+    background-color: transparent;
+}
+/*  ----------------TOOLS----------------  */
+.toolgallery {
+    max-width: 401px;
+}
+
+.toolgallery p{
+    color: #F8F8F8;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.toolgallery2 p{
+    color: #F8F8F8;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.figma {
+    max-width:73px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+
+.illustrator {
+    max-width:73px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+
+.invision {
+    max-width:73px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+
+.miro {
+    max-width:73px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+    
+}
+
+.photoshop {
+    max-width:73px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+    
+}
+
+.visualstudio {
+    max-width:73px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+.visualstudio p {
+   text-align: center;
+}
+
+/*  ----------------SKILLS----------------  */
+
+
+/*  ----------------RECENT WORK----------------  */
+.recentprojects{
+    background-color: #1C063B;
+    min-height: 949px;
+}
+.recentprojects .card {
+    background-color: #F8F8F8;
+}
+.recentprojects h4 {
+    color: #1C063B;
+}
+.recentprojects p {
+    color: #1C063B;
+}
+
+/*  ----------------FOOTER HANDS ANIMATION----------------  */
+.footerhands{
+    position: absolute;
+    top: 2500px;
+}
+
+.together {
+    display: none;
+}
+
+.apart:hover{
+    display: none;
+}
+
+.together:hover{
+    display: inline;
+}
+
+/*  ----------------FOOTER----------------  */
+footer{
+    background-color: #1C063B;
+    min-height: 378px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.social {
+    align-content: center;
+    display: inline-block;
+}
+.p-3{
+    color: #F8F8F8;
+
+}
+.buttonsection{
+    display: inline-flex;
+    
+}
+.copyright{
+    padding-top:150px;
+    text-align: center;
+    color: #F8F8F8;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1200px){
+    .footerhands{
+        display: none;
+    }
+}
